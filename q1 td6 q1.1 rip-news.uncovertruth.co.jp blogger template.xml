@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:js='false' b:layoutsVersion='3' lang='en'>
+<head>
+  <meta charset='utf-8'/>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+
+  <!--  -->
+  <title>Blog Pager Name</title>
+  <meta content='' name='description'/>
+
+  <meta content='True' name='HandheldFriendly'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+
+  <!--link rel="shortcut icon" href="https://news.uncovertruth.co.jp/favicon.ico"/-->
+
+  <link href='https://news.uncovertruth.co.jp/assets/bundle.css?v=7289b41e4b' rel='stylesheet' type='text/css'/>
+
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+
+  <meta content='株式会社UNCOVER TRUTHが提供するヒートマップツール「USERDIVE」の最新情報やデジタルマーケティング施策の事例紹介・セミナー・イベント情報などをお知らせするブログです。' name='description'/>
+    <link href='https://news.uncovertruth.co.jp/favicon.ico' rel='shortcut icon' type='image/x-icon'/>
+    <link href='https://news.uncovertruth.co.jp/' rel='canonical'/>
+    <meta content='no-referrer-when-downgrade' name='referrer'/>
+    <link href='https://news.uncovertruth.co.jp/page/2/' rel='next'/>
+    
+    <meta content='ニュース｜株式会社UNCOVER TRUTH' property='og:site_name'/>
+    <meta content='website' property='og:type'/>
+    <meta content='ニュース｜株式会社UNCOVER TRUTH' property='og:title'/>
+    <meta content='株式会社UNCOVER TRUTHが提供するヒートマップツール「USERDIVE」の最新情報やデジタルマーケティング施策の事例紹介・セミナー・イベント情報などをお知らせするブログです。' property='og:description'/>
+    <meta content='https://news.uncovertruth.co.jp/' property='og:url'/>
+    <meta content='summary' name='twitter:card'/>
+    <meta content='ニュース｜株式会社UNCOVER TRUTH' name='twitter:title'/>
+    <meta content='株式会社UNCOVER TRUTHが提供するヒートマップツール「USERDIVE」の最新情報やデジタルマーケティング施策の事例紹介・セミナー・イベント情報などをお知らせするブログです。' name='twitter:description'/>
+    <meta content='https://news.uncovertruth.co.jp/' name='twitter:url'/>
+    
+    <script type='application/ld+json'>
+{
+    &quot;@context&quot;: &quot;https://schema.org&quot;,
+    &quot;@type&quot;: &quot;WebSite&quot;,
+    &quot;publisher&quot;: {
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;ニュース&#65372;株式会社UNCOVER TRUTH&quot;,
+        &quot;logo&quot;: {
+            &quot;@type&quot;: &quot;ImageObject&quot;,
+            &quot;url&quot;: &quot;https://news.uncovertruth.co.jp/content/images/2017/01/ut-logo.svg&quot;,
+            &quot;width&quot;: 300,
+            &quot;height&quot;: 30
+        }
+    },
+    &quot;url&quot;: &quot;https://news.uncovertruth.co.jp/&quot;,
+    &quot;mainEntityOfPage&quot;: {
+        &quot;@type&quot;: &quot;WebPage&quot;,
+        &quot;@id&quot;: &quot;https://news.uncovertruth.co.jp/&quot;
+    },
+    &quot;description&quot;: &quot;株式会社UNCOVER TRUTHが提供するヒートマップツール&#12300;USERDIVE&#12301;の最新情報やデジタルマーケティング施策の事例紹介&#12539;セミナー&#12539;イベント情報などをお知らせするブログです&#12290;&quot;
+}
+    </script>
+
+    <!--script src="/public/ghost-sdk.min.js?v=7289b41e4b"></script-->
+<!--script>
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "922797d81c24"
+});
+</script-->
+    <meta content='Ghost 1.25' name='generator'/>
+    <link href='https://news.uncovertruth.co.jp/rss/' rel='alternate' title='RSS' type='application/rss+xml'/>
+    <!--script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TLLGLZF');</script-->
+<b:skin><![CDATA[
+/*
+### Template: rip-news.uncovertruth.co.jp
+### Version: 1.0.0 (04-03-2019)
+### Author: Dang Minh Quy
+### Designer: Minh Quy Design
+### Contact: fb.me/dmq.1004
+*/
+f12{font-size:12px}
+
+.m0{margin:0}
+.p0{padding:0}
+img,amp-img{width:100%; height:auto}
+]]></b:skin>
+<style>
+/*! @uncovertruth/fuji 1.2.1 | Copyright (c) 2018 UNCOVER TRUTH Inc. | License MIT */
+/*! Basscss | http://basscss.com | MIT License */.h1{font-size:2rem}.h2{font-size:1.5rem}.h3{font-size:1.25rem}.h4{font-size:1rem}.h5{font-size:.875rem}.h6{font-size:.75rem}.font-family-inherit{font-family:inherit}.font-size-inherit{font-size:inherit}.text-decoration-none{text-decoration:none}.bold{font-weight:700}.regular{font-weight:400}.italic{font-style:italic}.caps{text-transform:uppercase;letter-spacing:.2em}.left-align{text-align:left}.center{text-align:center}.right-align{text-align:right}.justify{text-align:justify}.nowrap{white-space:nowrap}.break-word{word-wrap:break-word}.line-height-1{line-height:1}.line-height-2{line-height:1.125}.line-height-3{line-height:1.25}.line-height-4{line-height:1.5}.list-style-none{list-style:none}.underline{text-decoration:underline}.truncate{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.list-reset{list-style:none;padding-left:0}.inline{display:inline}.block{display:block}.inline-block{display:inline-block}.table{display:table}.table-cell{display:table-cell}.overflow-hidden{overflow:hidden}.overflow-scroll{overflow:scroll}.overflow-auto{overflow:auto}.clearfix:after,.clearfix:before{content:" ";display:table}.clearfix:after{clear:both}.left{float:left}.right{float:right}.fit{max-width:100%}.max-width-1{max-width:24rem}.max-width-2{max-width:32rem}.max-width-3{max-width:48rem}.max-width-4{max-width:64rem}.border-box{box-sizing:border-box}.align-baseline{vertical-align:baseline}.align-top{vertical-align:top}.align-middle{vertical-align:middle}.align-bottom{vertical-align:bottom}.m0{margin:0}.mt0{margin-top:0}.mr0{margin-right:0}.mb0{margin-bottom:0}.ml0,.mx0{margin-left:0}.mx0{margin-right:0}.my0{margin-top:0;margin-bottom:0}.m1{margin:.5rem}.mt1{margin-top:.5rem}.mr1{margin-right:.5rem}.mb1{margin-bottom:.5rem}.ml1,.mx1{margin-left:.5rem}.mx1{margin-right:.5rem}.my1{margin-top:.5rem;margin-bottom:.5rem}.m2{margin:1rem}.mt2{margin-top:1rem}.mr2{margin-right:1rem}.mb2{margin-bottom:1rem}.ml2,.mx2{margin-left:1rem}.mx2{margin-right:1rem}.my2{margin-top:1rem;margin-bottom:1rem}.m3{margin:2rem}.mt3{margin-top:2rem}.mr3{margin-right:2rem}.mb3{margin-bottom:2rem}.ml3,.mx3{margin-left:2rem}.mx3{margin-right:2rem}.my3{margin-top:2rem;margin-bottom:2rem}.m4{margin:4rem}.mt4{margin-top:4rem}.mr4{margin-right:4rem}.mb4{margin-bottom:4rem}.ml4,.mx4{margin-left:4rem}.mx4{margin-right:4rem}.my4{margin-top:4rem;margin-bottom:4rem}.mxn1{margin-left:-.5rem;margin-right:-.5rem}.mxn2{margin-left:-1rem;margin-right:-1rem}.mxn3{margin-left:-2rem;margin-right:-2rem}.mxn4{margin-left:-4rem;margin-right:-4rem}.m-auto{margin:auto}.mt-auto{margin-top:auto}.mr-auto{margin-right:auto}.mb-auto{margin-bottom:auto}.ml-auto,.mx-auto{margin-left:auto}.mx-auto{margin-right:auto}.my-auto{margin-top:auto;margin-bottom:auto}.p0{padding:0}.pt0{padding-top:0}.pr0{padding-right:0}.pb0{padding-bottom:0}.pl0,.px0{padding-left:0}.px0{padding-right:0}.py0{padding-top:0;padding-bottom:0}.p1{padding:.5rem}.pt1{padding-top:.5rem}.pr1{padding-right:.5rem}.pb1{padding-bottom:.5rem}.pl1{padding-left:.5rem}.py1{padding-top:.5rem;padding-bottom:.5rem}.px1{padding-left:.5rem;padding-right:.5rem}.p2{padding:1rem}.pt2{padding-top:1rem}.pr2{padding-right:1rem}.pb2{padding-bottom:1rem}.pl2{padding-left:1rem}.py2{padding-top:1rem;padding-bottom:1rem}.px2{padding-left:1rem;padding-right:1rem}.p3{padding:2rem}.pt3{padding-top:2rem}.pr3{padding-right:2rem}.pb3{padding-bottom:2rem}.pl3{padding-left:2rem}.py3{padding-top:2rem;padding-bottom:2rem}.px3{padding-left:2rem;padding-right:2rem}.p4{padding:4rem}.pt4{padding-top:4rem}.pr4{padding-right:4rem}.pb4{padding-bottom:4rem}.pl4{padding-left:4rem}.py4{padding-top:4rem;padding-bottom:4rem}.px4{padding-left:4rem;padding-right:4rem}.col{float:left}.col,.col-right{box-sizing:border-box}.col-right{float:right}.col-1{width:8.33333%}.col-2{width:16.66667%}.col-3{width:25%}.col-4{width:33.33333%}.col-5{width:41.66667%}.col-6{width:50%}.col-7{width:58.33333%}.col-8{width:66.66667%}.col-9{width:75%}.col-10{width:83.33333%}.col-11{width:91.66667%}.col-12{width:100%}@media (min-width:40em){.sm-col{float:left;box-sizing:border-box}.sm-col-right{float:right;box-sizing:border-box}.sm-col-1{width:8.33333%}.sm-col-2{width:16.66667%}.sm-col-3{width:25%}.sm-col-4{width:33.33333%}.sm-col-5{width:41.66667%}.sm-col-6{width:50%}.sm-col-7{width:58.33333%}.sm-col-8{width:66.66667%}.sm-col-9{width:75%}.sm-col-10{width:83.33333%}.sm-col-11{width:91.66667%}.sm-col-12{width:100%}}@media (min-width:52em){.md-col{float:left;box-sizing:border-box}.md-col-right{float:right;box-sizing:border-box}.md-col-1{width:8.33333%}.md-col-2{width:16.66667%}.md-col-3{width:25%}.md-col-4{width:33.33333%}.md-col-5{width:41.66667%}.md-col-6{width:50%}.md-col-7{width:58.33333%}.md-col-8{width:66.66667%}.md-col-9{width:75%}.md-col-10{width:83.33333%}.md-col-11{width:91.66667%}.md-col-12{width:100%}}@media (min-width:64em){.lg-col{float:left;box-sizing:border-box}.lg-col-right{float:right;box-sizing:border-box}.lg-col-1{width:8.33333%}.lg-col-2{width:16.66667%}.lg-col-3{width:25%}.lg-col-4{width:33.33333%}.lg-col-5{width:41.66667%}.lg-col-6{width:50%}.lg-col-7{width:58.33333%}.lg-col-8{width:66.66667%}.lg-col-9{width:75%}.lg-col-10{width:83.33333%}.lg-col-11{width:91.66667%}.lg-col-12{width:100%}}.flex{display:-ms-flexbox;display:flex}@media (min-width:40em){.sm-flex{display:-ms-flexbox;display:flex}}@media (min-width:52em){.md-flex{display:-ms-flexbox;display:flex}}@media (min-width:64em){.lg-flex{display:-ms-flexbox;display:flex}}.flex-column{-ms-flex-direction:column;flex-direction:column}.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}.items-start{-ms-flex-align:start;align-items:flex-start}.items-end{-ms-flex-align:end;align-items:flex-end}.items-center{-ms-flex-align:center;align-items:center}.items-baseline{-ms-flex-align:baseline;align-items:baseline}.items-stretch{-ms-flex-align:stretch;align-items:stretch}.self-start{-ms-flex-item-align:start;align-self:flex-start}.self-end{-ms-flex-item-align:end;align-self:flex-end}.self-center{-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center}.self-baseline{-ms-flex-item-align:baseline;align-self:baseline}.self-stretch{-ms-flex-item-align:stretch;-ms-grid-row-align:stretch;align-self:stretch}.justify-start{-ms-flex-pack:start;justify-content:flex-start}.justify-end{-ms-flex-pack:end;justify-content:flex-end}.justify-center{-ms-flex-pack:center;justify-content:center}.justify-between{-ms-flex-pack:justify;justify-content:space-between}.justify-around{-ms-flex-pack:distribute;justify-content:space-around}.justify-evenly{-ms-flex-pack:space-evenly;justify-content:space-evenly}.content-start{-ms-flex-line-pack:start;align-content:flex-start}.content-end{-ms-flex-line-pack:end;align-content:flex-end}.content-center{-ms-flex-line-pack:center;align-content:center}.content-between{-ms-flex-line-pack:justify;align-content:space-between}.content-around{-ms-flex-line-pack:distribute;align-content:space-around}.content-stretch{-ms-flex-line-pack:stretch;align-content:stretch}.flex-auto{-ms-flex:1 1 auto;flex:1 1 auto;min-width:0;min-height:0}.flex-none{-ms-flex:none;flex:none}.order-0{-ms-flex-order:0;order:0}.order-1{-ms-flex-order:1;order:1}.order-2{-ms-flex-order:2;order:2}.order-3{-ms-flex-order:3;order:3}.order-last{-ms-flex-order:99999;order:99999}.relative{position:relative}.absolute{position:absolute}.fixed{position:fixed}.top-0{top:0}.right-0{right:0}.bottom-0{bottom:0}.left-0{left:0}.z1{z-index:1}.z2{z-index:2}.z3{z-index:3}.z4{z-index:4}.border{border-style:solid;border-width:1px}.border-top{border-top-style:solid;border-top-width:1px}.border-right{border-right-style:solid;border-right-width:1px}.border-bottom{border-bottom-style:solid;border-bottom-width:1px}.border-left{border-left-style:solid;border-left-width:1px}.border-none{border:0}.rounded{border-radius:3px}.circle{border-radius:50%}.rounded-top{border-radius:3px 3px 0 0}.rounded-right{border-radius:0 3px 3px 0}.rounded-bottom{border-radius:0 0 3px 3px}.rounded-left{border-radius:3px 0 0 3px}.not-rounded{border-radius:0}.hide{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px)}@media (max-width:40em){.xs-hide{display:none!important}}@media (min-width:40em) and (max-width:52em){.sm-hide{display:none!important}}@media (min-width:52em) and (max-width:64em){.md-hide{display:none!important}}@media (min-width:64em){.lg-hide{display:none!important}}.display-none{display:none!important}body,html{height:100%;padding:0;margin:0}body{font-family:\\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3,Hiragino Kaku Gothic Pro,\\30E1\30A4\30EA\30AA,Meiryo,"\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF",sans-serif;line-height:1;color:#333}*,:after,:before{box-sizing:inherit}button,dd,dl,dt,figure,h1,h3,h4,h5,h6,ol,p,ul{margin:0;padding:0}button{background-color:transparent;border:none;outline:none}p+p{margin-top:1rem}.breadcrumb{margin-top:4rem;display:flex}.breadcrumb .home:before{content:"\F015";font-family:FontAwesome,sans-serif;margin-right:.125rem}.breadcrumb li{font-size:.75rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.breadcrumb li:first-child{flex:none}.breadcrumb li+li:before{content:"\F105";font-family:FontAwesome,sans-serif;margin:0 .313rem 0 .626rem}.float-right{float:right}.float-left{float:left}.overlay{z-index:10;position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0,129,239,.6)}.hidden{text-indent:-9999px;visibility:hidden;display:none}blockquote{margin:3rem 0 0;padding:.5rem 0 .5rem 2rem;color:#999;font-family:Source Sans Pro,sans-serif;font-size:1rem;font-weight:400;line-height:1.8;border-left:.125rem solid #e9ebed}blockquote :last-child{margin:0}blockquote footer{color:#999;font-size:1.3rem}.post-template main article .post-content blockquote p{margin-top:0}pre{font-family:monospace}code,pre{background:rgba(0,0,0,.04)}code{margin:0 .2rem;padding:.2rem .5rem;font-size:90%;border-radius:.313rem}code,pre>code{white-space:pre-wrap}pre>code{display:block;padding:1rem 1.5rem;background:transparent;border-radius:0}.site-footer{color:#999;font-size:.938rem;background-color:#fff;border-top:.063rem solid #ccc;padding:.938rem}.site-footer a{color:#999}input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=url],select,textarea{width:100%;border:.063rem solid #7b7b7b;box-sizing:border-box;outline:none;padding:.313rem;font-size:.875rem}textarea{resize:none}label,legend{display:block;margin-bottom:.5rem;font-family:Source Sans Pro,sans-serif;font-size:1.4rem;font-weight:700}fieldset{padding:0;border-width:0}input[type=checkbox],input[type=radio]{display:inline}input[type=file]{padding:1rem;background-color:#f6f7f7;border-radius:.125rem}.label-inline{font-weight:400;display:inline-block;margin-left:.5rem}img{max-width:100%;min-height:0;height:auto;vertical-align:top}a{color:#475876;text-decoration:none}a:hover{cursor:pointer;color:#999}dl,ol,ul{margin:0;padding:0}dl dl,dl ol,dl ul,ol dl,ol ol,ol ul,ul dl,ul ol,ul ul{margin:1.5rem 0 1.5rem 3rem}dl,ol,ul{list-style:none}dd,dt{margin-bottom:1rem}.home-template,.paged,.tag-template{background-color:#f9f9f9}.home-template .wrapper,.paged .wrapper,.tag-template .wrapper{display:flex;justify-content:space-between}.home-template .wrapper main,.paged .wrapper main,.tag-template .wrapper main{flex:1}.home-template .wrapper main article,.paged .wrapper main article,.tag-template .wrapper main article{background-color:#fff;border-radius:.375rem;box-shadow:0 .375rem .938rem 0 rgba(0,0,0,.15);display:flex;min-height:12.813rem}.home-template .wrapper main article+article,.paged .wrapper main article+article,.tag-template .wrapper main article+article{margin-top:1.563rem}.home-template .wrapper main article .featured-image,.paged .wrapper main article .featured-image,.tag-template .wrapper main article .featured-image{width:45%;max-width:27.5rem;overflow:hidden;border-radius:.375rem 0 0 .375rem}.home-template .wrapper main article .featured-image a,.paged .wrapper main article .featured-image a,.tag-template .wrapper main article .featured-image a{display:block;max-width:100%;max-height:100%;height:100%;position:relative;transition-duration:.3s;border-radius:.375rem 0 0 .375rem;background-position:50%;background-size:cover}.home-template .wrapper main article .featured-image a:hover,.paged .wrapper main article .featured-image a:hover,.tag-template .wrapper main article .featured-image a:hover{transform:scale(1.15)}.home-template .wrapper main article .article-detail,.paged .wrapper main article .article-detail,.tag-template .wrapper main article .article-detail{flex:1;padding:1.25rem}.home-template .wrapper main article .article-detail .article-tag,.paged .wrapper main article .article-detail .article-tag,.tag-template .wrapper main article .article-detail .article-tag{display:flex;flex-wrap:wrap;font-size:.75rem;line-height:1.2}.home-template .wrapper main article .article-detail .article-tag:before,.paged .wrapper main article .article-detail .article-tag:before,.tag-template .wrapper main article .article-detail .article-tag:before{content:"\F02B";font-family:FontAwesome,sans-serif;margin-right:.313rem}.home-template .wrapper main article .article-detail .article-tag li:after,.paged .wrapper main article .article-detail .article-tag li:after,.tag-template .wrapper main article .article-detail .article-tag li:after{content:",";margin:0 .313rem 0 0}.home-template .wrapper main article .article-detail .article-tag li:last-child:after,.paged .wrapper main article .article-detail .article-tag li:last-child:after,.tag-template .wrapper main article .article-detail .article-tag li:last-child:after{display:none}.home-template .wrapper main article .article-detail .article-tag li:last-child a,.paged .wrapper main article .article-detail .article-tag li:last-child a,.tag-template .wrapper main article .article-detail .article-tag li:last-child a{color:#555}.home-template .wrapper main article .article-detail>a,.paged .wrapper main article .article-detail>a,.tag-template .wrapper main article .article-detail>a{display:block;color:#333;margin-top:.625rem}.home-template .wrapper main article .article-detail>a header h2,.paged .wrapper main article .article-detail>a header h2,.tag-template .wrapper main article .article-detail>a header h2{font-size:1.125rem;line-height:1.4;display:inline;margin-right:.5rem}.home-template .wrapper main article .article-detail>a header p,.paged .wrapper main article .article-detail>a header p,.tag-template .wrapper main article .article-detail>a header p{color:#555;font-size:.75rem;display:inline-block}.home-template .wrapper main article .article-detail>a .article-text,.paged .wrapper main article .article-detail>a .article-text,.tag-template .wrapper main article .article-detail>a .article-text{margin-top:.688rem;line-height:1.5;max-height:4.2rem;overflow:hidden;word-wrap:break-word}.home-template .wrapper aside,.paged .wrapper aside,.tag-template .wrapper aside{width:13.5rem;margin-left:2.5rem}.home-template .wrapper aside section h3,.paged .wrapper aside section h3,.tag-template .wrapper aside section h3{padding-bottom:.625rem;margin-bottom:.938rem;border-bottom:.063rem solid #ccc}.home-template .wrapper aside section+section,.paged .wrapper aside section+section,.tag-template .wrapper aside section+section{margin-top:3.75rem}.home-template .wrapper aside .aside-category ul li+li,.paged .wrapper aside .aside-category ul li+li,.tag-template .wrapper aside .aside-category ul li+li{margin-top:.938rem}.home-template .wrapper aside .aside-category ul li a,.paged .wrapper aside .aside-category ul li a,.tag-template .wrapper aside .aside-category ul li a{color:#555}.home-template .wrapper aside .aside-category ul li a:before,.paged .wrapper aside .aside-category ul li a:before,.tag-template .wrapper aside .aside-category ul li a:before{content:"\F105";font-family:FontAwesome,sans-serif;margin-right:.625rem}.home-template .wrapper aside .aside-newest ul li+li,.paged .wrapper aside .aside-newest ul li+li,.tag-template .wrapper aside .aside-newest ul li+li{border-top:.063rem dotted #ccc;padding-top:.938rem;margin-top:.938rem}.home-template .wrapper aside .aside-newest ul li a,.paged .wrapper aside .aside-newest ul li a,.tag-template .wrapper aside .aside-newest ul li a{color:#333;font-size:.875rem}@media screen and (max-width:47.938rem){.home-template .wrapper,.home-template .wrapper main article,.paged .wrapper,.paged .wrapper main article,.tag-template .wrapper,.tag-template .wrapper main article{display:block}.home-template .wrapper main article .featured-image,.paged .wrapper main article .featured-image,.tag-template .wrapper main article .featured-image{max-width:100%;width:100%;border-radius:.375rem .375rem 0 0}.home-template .wrapper main article .featured-image a,.paged .wrapper main article .featured-image a,.tag-template .wrapper main article .featured-image a{padding-top:46%;border-radius:.375rem .375rem 0 0}.home-template .wrapper aside,.paged .wrapper aside,.tag-template .wrapper aside{width:100%;margin:3.75rem 0 0}}.site-hero-header{background-color:#475876;padding:5rem 1rem;text-align:center;color:#fff}@media screen and (max-width:47.938rem){.site-hero-header{padding:2rem .5rem}}.site-hero-header .site-hero-title{font-size:1.875rem}@media screen and (max-width:47.938rem){.site-hero-header .site-hero-title{font-size:1.4rem}}.site-hero-header .site-hero-description{margin-top:1.25rem;line-height:1.2}hr{margin-top:3.75rem;margin-bottom:3.75rem;width:3.75rem}.highlight,mark{background:#fff198}.navigation-toggle-container{position:fixed;top:0;left:0;width:100%;height:2.5rem;z-index:1000;text-align:center;cursor:pointer;background-color:hsla(0,0%,100%,.97);border-bottom:.063rem solid #e9ebed;transition:background-color 2.5s ease}.navigation-toggle-container.active .top{transform:translateY(.313em) translateX(0) rotate(-45deg)}.navigation-toggle-container.active .middle{opacity:0}.navigation-toggle-container.active .bottom{transform:translateY(-.313em) translateX(0) rotate(45deg)}.navigation-toggle-container.active .navigation-toggle:after{content:"CLOSE"}.navigation-toggle{line-height:2.5rem}.navigation-toggle:after{content:"MENU";font-size:.8rem;transition:all .25s ease}.toggle-icon{display:inline-block;margin-right:.3rem}.toggle-icon span{display:block;width:1.2rem;height:.125rem;background-color:#66727d;transition:all .25s ease}.toggle-icon span:not(:last-child){margin-bottom:.2rem}.site-navigation-overlay{position:fixed;top:0;left:0;z-index:900;width:100%;height:100%;opacity:.97;visibility:hidden;transition:opacity .35s,visibility .35s,width .35s}.site-navigation-overlay:after,.site-navigation-overlay:before{position:fixed;content:"";background:#fff;top:0;width:50%;height:100%;transition:all .35s ease}.site-navigation-overlay:before{left:-55%}.site-navigation-overlay:after{right:-55%}.site-navigation-overlay.open{visibility:visible;overflow-y:scroll}.site-navigation-overlay.open:before{left:0}.site-navigation-overlay.open:after{right:0}.site-navigation-overlay.open li{animation:fadeInTop .5s ease forwards;animation-delay:.35s}.site-navigation-overlay.open li:nth-of-type(2){animation-delay:.45s}.site-navigation-overlay.open li:nth-of-type(3){animation-delay:.55s}.site-navigation-overlay.open li:nth-of-type(4){animation-delay:.65s}.site-navigation-overlay.open li:nth-of-type(5){animation-delay:.75s}.site-navigation-overlay.open li:nth-of-type(6){animation-delay:.85s}.site-navigation-overlay.open li:nth-of-type(7){animation-delay:.95s}.site-navigation-overlay.open li:nth-of-type(8){animation-delay:.105ms}.site-navigation{position:relative;top:50%;transform:translateY(-50%);z-index:950}.site-navigation ul{font-size:1.5rem;font-family:Source Sans Pro,sans-serif;font-weight:700;text-align:center;margin:1rem 0 0}.site-navigation li{margin-bottom:2rem;opacity:0;list-style:none}.site-navigation a{display:block;color:#475876;font-weight:700}.nav-current a,.site-navigation a:hover{color:#999}.no-scroll{position:fixed;top:0;left:0;width:100%;overflow:hidden;-webkit-overflow-scrolling:touch}@keyframes fadeInTop{0%{top:20%;opacity:0}to{top:0;opacity:1}}@media screen and (min-width:47.938rem){.navigation-toggle-container{display:none}.site-navigation-overlay{position:relative;z-index:0;opacity:1;visibility:visible;transition:none}.site-navigation-overlay:after,.site-navigation-overlay:before{display:none}.site-navigation{top:0;z-index:0}.site-navigation ul{*zoom:1;top:0;z-index:0;font-size:1rem;font-weight:400;text-align:left}.site-navigation ul:after,.site-navigation ul:before{content:"";display:table}.site-navigation ul:after{clear:both}.site-navigation li{float:left;margin-bottom:0;opacity:1}.site-navigation li:not(:last-child){margin-right:2rem}.site-navigation a{display:inline-block;color:#475876;font-size:1rem}.nav-current a{position:relative;color:#999}}.pagination{width:100%;margin:2rem auto;position:relative;font-size:.938rem}@media screen and (min-width:47.938rem){.pagination{max-width:80rem;margin:4rem auto}}.pagination .page-number{display:block;text-align:center;color:#999;padding-top:.313rem}.pagination ul{margin:0;width:100%}.pagination .prev{left:0}.pagination .next{right:0}.pagination li{list-style-type:none;position:absolute;top:1.875rem;border:.063rem solid #e9ebed;border-radius:.188rem;background-color:#fff}@media screen and (min-width:47.938rem){.pagination li{top:0}}.pagination li:not(:last-child){margin-right:3rem}.pagination li.prev a:hover:before{left:-.3rem}.pagination li.next a:hover:after{right:-.3rem}.pagination a{color:#333;padding:.313rem .625rem;display:block}.pagination a:hover{color:#999}.pagination .next a:after,.pagination .prev a:before{position:relative;transition:all .35s}.pagination .prev a:before{content:"\2190";position:relative;left:0}.pagination .next a:after{content:"\2192";position:relative;right:0}.post-template .wrapper{max-width:50rem;margin:0 auto;padding-top:0}.post-template main article header{margin-bottom:1.563rem}.post-template main article header h1{font-size:1.5rem;line-height:1.4;font-weight:400}@media screen and (min-width:47.938rem){.post-template main article header h1{font-size:1.875rem}}.post-template main article header p{font-size:.875rem;color:#555;margin-top:1.25rem}.post-template main article header .article-tag{margin-top:1.25rem;display:flex;flex-wrap:wrap;font-size:.75rem;line-height:1.2}.post-template main article header .article-tag:before{content:"\F02B";font-family:FontAwesome,sans-serif;margin-right:.313rem}.post-template main article header .article-tag li:after{content:",";margin:0 .313rem 0 0}.post-template main article header .article-tag li:last-child:after{display:none}.post-template main article header .article-tag li:last-child a{color:#555}.post-template main article .post-content{line-height:1.8;font-size:1rem}@media screen and (min-width:47.938rem){.post-template main article .post-content{font-size:1.125rem}}.post-template main article .post-content p{margin-top:2rem}.post-template main article .post-content h2{position:relative;margin-top:2rem;padding:.5rem 0 .5rem 2rem;font-size:1.3rem;line-height:1.4}@media screen and (min-width:47.938rem){.post-template main article .post-content h2{font-size:1.563rem}}.post-template main article .post-content h2:before{content:"";position:absolute;left:0;top:0;background-color:#4a5873;height:100%;width:.313rem}.post-template main article .post-content h3{font-size:1.3rem;line-height:1.4;margin-top:2rem}@media screen and (min-width:47.938rem){.post-template main article .post-content h3{font-size:1.563rem}}.post-template main article .post-content h4{font-size:1.25rem;line-height:1.4;margin-top:2rem}@media screen and (min-width:47.938rem){.post-template main article .post-content h4{font-size:1.4rem}}.post-template main article .post-content h5{font-size:1.2rem;line-height:1.4;margin-top:2rem}@media screen and (min-width:47.938rem){.post-template main article .post-content h5{font-size:1.3rem}}.post-template main article .post-content *+h2{margin-top:5rem}.post-template main article .post-content a{text-decoration:underline}.post-template main article .post-content ul{list-style:circle inside;color:#4a5873;padding:0 1rem;margin-top:2rem}.post-template main article .post-content ul li{list-style:inside;font-weight:700}.post-template main article .post-content ul li+li{margin-top:.313rem}.post-template main article .post-content ol{list-style:decimal inside;margin-top:2rem}.post-template main article .post-content ol li{list-style:decimal inside}.post-template main article .post-content ol li+li{margin-top:1rem}.post-template main article .post-content ol li p{display:inline;margin-top:0}.post-template main article .post-content iframe{margin:2rem auto 0;display:block}.post-template main article .post-content .button{display:block;width:max-content;margin:4rem auto 0;padding:1.25rem 2.5rem;background-color:#4a5873;color:#fff;font-size:1rem;line-height:1.4;text-align:center;font-weight:700;border-radius:.188rem;text-decoration:none}@media screen and (min-width:47.938rem){.post-template main article .post-content .button{font-size:1.25rem}}.post-template main .read-next-story{margin-top:3.75rem;padding-top:1.875rem;border-top:.125rem solid #ccc;display:flex;justify-content:space-between}.post-template main .read-next-story>div{width:45%}.post-template main .read-next-story>div h3{position:relative;font-size:.875rem;font-weight:400}.post-template main .read-next-story>div h3:after,.post-template main .read-next-story>div h3:before{position:absolute;top:0;font-family:FontAwesome,sans-serif;color:#999}.post-template main .read-next-story>div h3 a{display:block;color:#4a5873;text-decoration:underline;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.post-template main .read-next-story .next h3{padding-left:1.25rem}.post-template main .read-next-story .next h3:before{content:"\F104";left:0;margin-right:.313rem}.post-template main .read-next-story .prev h3{padding-right:1.25rem;text-align:right}.post-template main .read-next-story .prev h3:after{content:"\F105";right:0;margin-left:.313rem}.post-template main .widget-share{display:flex;margin-top:4rem}.post-template main .widget-share .share-item:not(:last-child){border-right:.063rem solid #e9ebed}.post-template main .widget-share .widget li{list-style:none}.post-template main .widget-share .share-item{position:relative;flex-grow:1;border-top:.063rem solid #e9ebed;border-bottom:.063rem solid #e9ebed}.post-template main .widget-share .share-item a{display:block;padding:1rem 0;color:#66727d;text-align:center;transition:background-color .3s,color 0ms}.post-template main .widget-share .share-item a:hover{color:#fff}.post-template main .widget-share .share-item.twitter:hover a{background-color:#55acee}.post-template main .widget-share .share-item.facebook:hover a{background-color:#3b5998}.post-template main .widget-share .share-item.google-plus:hover a{background-color:#dc4e41}.post-template .related-article{margin-top:4rem}.post-template .related-article h4{font-size:1.2rem}@media screen and (min-width:47.938rem){.post-template .related-article h4{font-size:1.563rem}}@media screen and (min-width:47.938rem){.post-template .related-article ul{display:flex;margin:.938rem 0 0 -1.25rem}}.post-template .related-article ul li{background-color:#fff;border-radius:.375rem;box-shadow:0 .375rem .938rem 0 rgba(0,0,0,.15);margin-top:1.25rem}@media screen and (min-width:47.938rem){.post-template .related-article ul li{width:35%;margin-left:1.25rem;margin-top:0}}.post-template .related-article ul li a{color:#333;display:block;transition-duration:.3s}.post-template .related-article ul li a:hover img{max-width:150%;max-height:150%}.post-template .related-article ul li .featured-image{overflow:hidden;width:100%;padding-top:55%;position:relative;border-radius:.375rem .375rem 0 0}.post-template .related-article ul li .featured-image img{position:absolute;top:50%;left:50%;max-width:130%;max-height:130%;transform:translate(-50%,-50%);transition-duration:.3s}.post-template .related-article ul li .article-tag{color:#999}.post-template .related-article ul li .article-content{padding:.938rem;position:relative}.post-template .related-article ul li .article-content:after{content:"";width:100%;height:70%;position:absolute;bottom:0;left:0;border-radius:0 0 .375rem .375rem;background:linear-gradient(0deg,#fff 0,hsla(0,0%,100%,0))}.post-template .related-article ul li .article-content time{font-size:.75rem;color:#999}.post-template .related-article ul li .article-content h5{margin-top:.313rem;font-size:1rem;line-height:1.2}@media screen and (min-width:47.938rem){.post-template .related-article ul li .article-content h5{font-size:1.125rem}}.post-template .related-article ul li .article-content .article-text{margin-top:1.25rem;font-size:.938rem;line-height:1.2}table{margin-top:2rem;border-top:.063rem solid #ccc}table td{border-bottom:.063rem solid #ccc;padding:1.563rem 1.25rem;vertical-align:top}table td:first-child{white-space:nowrap}@media screen and (max-width:47.938rem){table td{display:block;padding:.3rem 1rem 1rem}table td:first-child{border-bottom:none;padding:1rem 1rem .3rem;font-weight:700}}.site-header{background-color:#fff;width:100%;padding:.938rem 1.875rem;box-sizing:border-box;*zoom:1}.site-header:after,.site-header:before{content:"";display:table}.site-header:after{clear:both}@media screen and (max-width:47.938rem){.site-header{margin-top:2.5rem}}.wrapper{padding:2rem 1rem 4rem}
+/*# sourceMappingURL=bundle.js.map*/
+</style>
+</head>
+<body class='home-template'>
+  <div class='container'>
+
+    <header class='site-header'>
+  <div class='float-left'>
+      <div class='site-title'><a href='https://news.uncovertruth.co.jp'><img alt='New | SỰ THẬT SỰ KHÁC BIỆT' src='https://news.uncovertruth.co.jp/content/images/2017/01/ut-logo.svg'/></a></div>
+  </div>
+
+  <div class='float-right'>
+    <div class='navigation-toggle-container' id='toggle'>
+  <div class='navigation-toggle'>
+    <div class='toggle-icon'>
+      <span class='top'/>
+      <span class='middle'/>
+      <span class='bottom'/>
+    </div>
+  </div>
+</div>
+
+<div class='site-navigation-overlay' id='overlay'>
+  <nav class='site-navigation'>
+    <ul>
+        <li class='nav-' role='presentation'>
+          <a href='/'>Trang chủ</a>
+        </li>
+        <li class='nav-' role='presentation'>
+          <a href='/'>Tag New</a>
+        </li>
+        <li class='nav-' role='presentation'>
+          <a href='/'>Tag Cases</a>
+        </li>
+        <li class='nav-' role='presentation'>
+          <a href='/tag/events/'>Tag Events</a>
+        </li>
+        <li class='nav-' role='presentation'>
+          <a href='/tag/analytics/'>Tag Analytics</a>
+        </li>
+        <li class='nav-' role='presentation'>
+          <a href='https://www.uncovertruth.co.jp/ja/company/'>Tag Company</a>
+        </li>
+        <li class='nav-' role='presentation'>
+          <a href='/p/contact.html'>Contact</a>
+        </li>
+    </ul>
+  </nav>
+</div>
+
+  </div>
+</header>
+
+    
+<section class='site-hero'>
+  <header class='site-hero-header'>
+    <h1 class='site-hero-title'>Blogger Template Name</h1>
+    <p class='site-hero-description'>
+      Đây là một blog để thông báo cho bạn thông tin mới nhất về công cụ bản đồ nhiệt &quot;USERDIVE&quot; được cung cấp bởi UNCOVER TRUTH, ví dụ về các biện pháp tiếp thị kỹ thuật số, hội thảo, thông tin sự kiện, v.v.
+    </p>
+  </header>
+</section>
+
+<!-- add -->
+
+<div class='xxx'>
+  <b:section class='main' id='main' showaddelement='yes'>
+    <b:widget id='Blog1' locked='true' title='Bài đăng trên Blog' type='Blog' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+        <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+        <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+        <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+        <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+        <b:widget-setting name='showAuthor'>true</b:widget-setting>
+        <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+        <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+        <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+        <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='timestampLabel'/>
+        <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+        <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+        <b:widget-setting name='showLabels'>true</b:widget-setting>
+        <b:widget-setting name='showLocation'>true</b:widget-setting>
+        <b:widget-setting name='postLabelsLabel'/>
+        <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+        <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+        <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+        <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+        <b:widget-setting name='showReactions'>false</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main' var='this'>
+<div class='wrapper'>
+  <main class='blog-posts hfeed site-main wow fadeIn' data-wow-duration='.8'>
+    <b:loop index='i' values='data:posts' var='post'>
+      <b:include data='post' name='postCommentsAndAd'/>
+    </b:loop>
+<b:include name='postPagination'/>
+  </main>
+
+
+
+<!-- add side-->
+<aside>
+<!-- side -->
+    <section class='aside-category'>
+  <h3>Thể loại</h3>
+  <ul>
+        <li><a href='/tag/events'>Sự Kiện&#65288;55&#65289;</a></li>
+        <li><a href='/tag/news'>Mới&#65288;25&#65289;</a></li>
+        <li><a href='/tag/media'>Media&#65288;25&#65289;</a></li>
+        <li><a href='/tag/cases'>Cases&#65288;18&#65289;</a></li>
+        <li><a href='/tag/analytics'>Analitics&#65288;5&#65289;</a></li>
+  </ul>
+</section>
+
+<section class='aside-newest'>
+  <h3>Bài viết mới nhất</h3>
+  <ul>
+    <li><a href='/contentmarketing_strategy_basis/'>Chiến lược và tư duy cơ bản để thành công trong tiếp thị nội dung</a></li>
+    <li><a href='/analytics_20190220_1/'>Cách đặt &quot;chỉ số theo dõi&quot; siêu cụ thể để cải thiện CVR của trang web</a></li>
+    <li><a href='/news_20190214_1/'>Cách đặt &quot;chỉ số theo dõi&quot; siêu cụ thể để cải thiện CVR của trang web2</a></li>
+  </ul>
+</section>
+  </aside>
+<!-- /add aside-->
+</div>
+  
+  <!--b:include name='feedLinks'/-->
+</b:includable>
+      <b:includable id='aboutPostAuthor'>
+  <div class='author-name'>
+    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+      <span>
+        <data:post.author.name/>
+      </span>
+    </a>
+  </div>
+  <div>
+    <span class='author-desc'>
+      <data:post.author.aboutMe/>
+    </span>
+  </div>
+</b:includable>
+      <b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+      <b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+  </div>
+</b:includable>
+      <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+      <b:includable id='commentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+      <b:includable id='commentFormIframeSrc' var='post'>
+  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+</b:includable>
+      <b:includable id='commentItem' var='comment'>
+  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+    <div class='comment-block'>
+      <div class='comment-author'>
+        <b:if cond='data:comment.authorUrl'>
+          <b:message name='messages.authorSaidWithLink'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+          </b:message>
+        <b:else/>
+          <b:message name='messages.authorSaid'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+          </b:message>
+        </b:if>
+      </div>
+      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+        <data:comment.body/>
+      </div>
+      <div class='comment-footer'>
+        <span class='comment-timestamp'>
+          <a expr:href='data:comment.url' title='comment permalink'>
+            <data:comment.timestamp/>
+          </a>
+          <b:include data='comment' name='commentDeleteIcon'/>
+        </span>
+      </div>
+    </div>
+  </div>
+</b:includable>
+      <b:includable id='commentList' var='comments'>
+  <div id='comments-block'>
+    <b:loop values='data:comments' var='comment'>
+      <b:include data='comment' name='commentItem'/>
+    </b:loop>
+  </div>
+</b:includable>
+      <b:includable id='commentPicker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframeComments'/>
+  <b:elseif cond='data:post.showThreadedComments'/>
+    <b:include data='post' name='threadedComments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+      <b:includable id='comments' var='post'>
+  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:include name='commentsTitle'/>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <div class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+              <data:messages.oldest/>
+            </a>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+              <data:messages.older/>
+            </a>
+          </b:if>
+
+          <span class='comment-range-text'>
+            <data:post.commentRangeText/>
+          </span>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+              <data:messages.newer/>
+            </a>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+              <data:messages.newest/>
+            </a>
+          </b:if>
+        </div>
+      </b:if>
+
+      <div class='footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='commentForm'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <b:include data='post' name='addComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+      <b:includable id='commentsTitle'>
+  <h3 class='title'><data:messages.comments/></h3>
+</b:includable>
+      <b:includable id='feedLinks'>
+  <b:if cond='!data:view.isPost'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments and data:post.feedLinks'>
+          <b:include data='post.feedLinks' name='feedLinksBody'/>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:messages.subscribeTo/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+      <b:includable id='homePageLink'>
+  <a class='home-link blog-pager next page-number' expr:href='data:blog.homepageUrl'>
+    <data:messages.home/>
+  </a>
+</b:includable>
+      <b:includable id='iframeComments' var='post'>
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
+
+    <b:if cond='!data:post.embedCommentForm'>
+      <b:include data='post' name='commentsLink'/>
+    </b:if>
+  </b:if>
+</b:includable>
+      <b:includable id='inlineAd' var='post'>
+  <b:if cond='!data:view.isPreview'>
+    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
+      <!-- Ad -->
+      <div class='inline-ad'>
+        <b:if cond='data:this.adCode != &quot;&quot;'>
+          <data:this.adCode/>
+        <b:else/>
+          <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <div class='inline-ad'>
+      <div class='inline-ad-placeholder'>
+        <span><b:message name='messages.adsGoHere'/></span>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='nextPageLink'>
+  <a class='blog-pager-older-link next page-number' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
+    <data:messages.olderPosts/>
+  </a>
+</b:includable>
+      <b:includable id='post' var='post'>
+  <!--div class='post'-->
+    <b:include data='post' name='postMeta'/>
+    <!--b:include name='headerByline'/-->
+    <b:if cond='data:view.isSingleItem'>
+      <b:include data='post' name='postBody'/>
+    <b:else/>
+      <b:include data='post' name='postBodySnippet'/>
+      <!--b:include data='post' name='postJumpLink'/-->
+    </b:if>
+    <!--b:include data='post' name='postFooter'/-->
+  <!--/div-->
+</b:includable>
+      <b:includable id='postBody' var='post'>
+
+  <!-- If metaDescription is empty, use the post body as the schema.org description too, for G+/FB snippeting. -->
+  <div class='post-body entry-content float-container article-detail' expr:id='&quot;post-body-&quot; + data:post.id'>
+
+
+<header>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h2 class='post-title entry-title'>
+      <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
+        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+    </h2>
+  </b:if>
+</header>
+
+    <div class='article-text'><data:post.body/></div>
+  </div>
+</b:includable>
+      <b:includable id='postBodySnippet' var='post'>
+<!-- add -->
+<b:if cond='data:blog.pageType != &quot;item&quot;'> <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+
+<div class='featured-image'>
+<b:if cond='data:post.thumbnailUrl'><img class='thumbnail post-thumbnail' expr:alt='data:post.title' expr:src='resizeimage(data:post.thumbnailUrl,1200,&quot;1200:630&quot;)' height='630px' width='1200px'/>
+<b:else/>
+<img alt='no image' class='thumbnail' height='630px' src='http://lh3.ggpht.com/Z8SVBQZ4X8/TdDxPVMl_sI/AAAAAAAAAAA/jhAgjCpZtRQ/no-image.png' width='1200px'/> </b:if>
+</div>
+
+<div class='article-detail'>
+
+<!--ul class='article-tag'>
+      <li>
+        <a href='/tag/events/'>Even5</a>
+      </li>
+      <li>
+        <a href='/tag/heatmap/'>map8</a>
+      </li>
+      <li>
+        <a href='/tag/yoichi-obata/'>yoichi8</a>
+      </li>
+    </ul-->
+    <!--a expr:href='data:post.link'/-->
+
+
+<header>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h2 class='post-title-x f12 entry-title-x'>
+ <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
+        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+    </h2>
+  </b:if>
+</header>
+
+<p class='article-text'><b:if cond='data:post.snippets.short'><data:post.snippets.short/></b:if></p>
+</div>
+<!--div class='jump-link-cua-q float-right'>
+<button class='bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded'><a class='text-white' expr:href='data:post.url' expr:title='data:post.title'>READ MORE <i aria-hidden='true' class='fa fa-arrow-right'/></a></button>
+</div-->
+<b:else/> <data:post.body/> </b:if> <b:else/> <data:post.body/>
+</b:if>
+</b:includable>
+      <b:includable id='postCommentsAndAd' var='post'>
+  <article>
+    <!-- Post title and body -->
+    
+      <b:include data='post' name='post'/>
+
+    <!-- Comments -->
+    <!--b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/-->
+
+    <!-- Show ad inside post container, after comments, if single item. -->
+    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
+  </article>
+
+  <!-- Show ad outside post container (between posts) for feed pages. -->
+  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
+</b:includable>
+      <b:includable id='postCommentsLink'>
+  <b:if cond='data:view.isMultipleItems'>
+    <span class='byline post-comment-link container'>
+      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+      <b:include cond='data:post.commentSource == 1' name='commentsLinkIframe'/>
+    </span>
+  </b:if>
+</b:includable>
+      <b:includable id='postFooter' var='post'>
+  <div class='post-footer'>
+    <b:include name='footerBylines'/>
+    <b:include data='post' name='postFooterAuthorProfile'/>
+  </div>
+</b:includable>
+      <b:includable id='postFooterAuthorProfile' var='post'>
+  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
+    <div class='author-profile'>
+      <b:if cond='data:post.author.authorPhoto.url'>
+        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
+        <div class='author-about'>
+          <b:include data='post' name='aboutPostAuthor'/>
+        </div>
+      <b:else/>
+        <b:include data='post' name='aboutPostAuthor'/>
+      </b:if>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='postHeader' var='post'>
+  <b:include name='headerByline'/>
+</b:includable>
+      <b:includable id='postMeta' var='post'>
+  <b:include data='post' name='postMetadataJSON'/>
+</b:includable>
+      <b:includable id='postPagination'>
+  <nav class='blog-pager pagination' id='blog-pager' role='pagination'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+  </nav>
+</b:includable>
+      <b:includable id='postTitle' var='post'>
+  
+  
+</b:includable>
+      <b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link next page-number' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
+      <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+      <b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+      <b:includable id='threadedComments' var='post'>
+  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+
+    <b:include name='commentsTitle'/>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threadedCommentJs'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threadedCommentForm'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+    </b:widget>
+  </b:section>
+</div>
+
+
+<!--/add-->
+
+
+
+<!--div class='wrapper'>
+  
+</div-->
+
+
+    <footer class='site-footer'>
+  <div class='copyright'>
+    <a href='https://minhquydesign.com'>Coppy Template Name</a> 2019.
+  </div>
+</footer>
+
+  </div>
+
+  <!-- js for menu-->
+  <script async='async' defer='defer' src='https://news.uncovertruth.co.jp/assets/bundle.js?v=7289b41e4b'/>
+
+<b:section class='add' id='add' showaddelement='yes'/>
+</body>
+</html>
